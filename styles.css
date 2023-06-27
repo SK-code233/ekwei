@@ -7,6 +7,10 @@
   color: #74b667;
 }
 
+body {
+  max-width: 90% !important;
+}
+
 .divs {
   transition: transform 0.5s;
   box-shadow: 1px 10px 30px -10px #66bb6a;
@@ -30,7 +34,7 @@
 }
 
 .highlightme {
-  color: #10a12d;
+  color: #17af35;
 }
 
 .up1 {
@@ -170,12 +174,31 @@ nav > a {
 .second {
   /* min-height: 20rem; */
   /* max-height: 40rem; */
-  height: 24rem;
+  height: 25rem;
   width: 25rem;
   background-color: #c6ffbc;
   /* background-color: #abf9ec; */
   padding: 3.2%;
-  border-radius: 65%;
+  border-radius: 2% 50%;
+  transition: all 3s ease-in-out;
+
+  &:hover {
+    transform: rotate(45deg);
+  }
+}
+
+.droplet {
+  background: mediumaquamarine;
+  border-radius: 2% 50%;
+  height: 100px;
+  margin: 100px;
+  transition: all 3s ease-in-out;
+  /* transition-timing: ease-in-out; */
+  width: 100px;
+
+  &:hover {
+    transform: rotate(1080deg);
+  }
 }
 
 .third {
@@ -290,6 +313,28 @@ nav > a {
   border: #10a12d solid 1px;
 }
 
+.mybtn2 {
+  color: #ffffff;
+  background-image: linear-gradient(to bottom right, #2fb74a, #80c38d);
+  border: #10a12d solid 1px;
+  width: 170px;
+  height: 45px;
+}
+
+.mybtns {
+  color: #2fb74a;
+  background-image: linear-gradient(to bottom right, #fafffb, #ffffff);
+  border: #10a12d solid 1px;
+  width: 110px;
+  height: 40px;
+}
+
+.mybtn2:hover {
+  color: #10a12d;
+  background-image: linear-gradient(to bottom right, #f0fef3, #f4f6f4);
+  border: #dff9e4 solid 0.1px;
+}
+
 .btn2 {
   border-radius: 0.5rem;
   padding: 1.2rem;
@@ -322,14 +367,14 @@ nav > a {
   background-color: #003806;
 }
 
-
 .fifth {
-  width: 70%;
+  width: 85%;
   height: 38rem;
   background-color: #66bb6a;
   align-self: center;
   justify-self: center;
-  margin-left: 8rem;
+  margin-left: auto;
+  margin-bottom: 15rem;
 }
 
 .imageOver {
@@ -337,4 +382,272 @@ nav > a {
   background-size: cover;
   width: 100%;
   height: 100%;
+  padding: 5% 20%;
+  color: white;
+  text-align: center;
+}
+
+.droplet2 {
+  background: mediumaquamarine;
+  border-radius: 2% 50%;
+  height: 100px;
+  margin: 100px;
+  transition: all 120s ease-in-out;
+  /* transition-timing: ease-in-out; */
+  width: 100px;
+  /* transform: rotate(2160deg); */
+
+  &:hover {
+    transform: rotate(864000deg);
+  }
+}
+
+.one {
+  align-items: center;
+}
+
+.one h1 {
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.one p {
+  font-weight: 600;
+}
+
+.two {
+  display: flex;
+  justify-content: space-around;
+}
+
+.two button {
+  border: 3px white solid;
+  border-radius: 100%;
+  padding: 1.5rem 1.65rem;
+  margin: 2.8rem 0.5rem;
+  /* color: #003806; */
+}
+
+.ok {
+  border: 3px white solid !important;
+  border-radius: 100% !important;
+  padding: 1.5rem 1.65rem !important;
+  margin: 2.8rem 0.5rem !important;
+  background-color: #003806 !important;
+  color: #ffffff !important;
+}
+
+.three {
+  width: 93%;
+  height: 180px;
+  /* display: flex; */
+  background-color: #03360c0d;
+  box-shadow: 1px 1px 20px 10px #06290b7c;
+  border-radius: 10px;
+  padding: 34px 12px;
+  overflow: hidden;
+  margin-left: 2rem;
+}
+
+.three p {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.three h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.kos {
+  color: #ffffff;
+}
+
+.ko {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ko h2 {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 800;
+  width: 30%;
+  text-align: left;
+  /* float: left; */
+}
+
+.ko p {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: 500;
+  width: 55%;
+  text-align: left;
+  /* float: right; */
+}
+
+.sliderbox {
+  /* height: 400px; */
+  width: 98%;
+  /* background-color: #004e10; */
+  margin-bottom: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselnumbers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.carouselnumbers button {
+  border: 3px white solid;
+  border-radius: 100%;
+  padding: 1.5rem 1.65rem;
+  margin: 2.8rem 0.5rem;
+  /* color: #003806; */
+}
+
+.big {
+  font-size: 38px;
+  font-weight: 900;
+  text-align: center;
+  width: 30rem;
+  margin-bottom: 20rem;
+  margin-top: 15rem;
+  margin-left: 12.5rem;
+  background-image: url("./ekwei/quote.svg");
+  background-size: 20%;
+  /* background-position: 20 10; */
+}
+
+.bigs {
+  width: 35rem;
+  margin-bottom: 0.1rem ;
+}
+
+.ekweihead {
+  position: relative;
+  margin: 10rem 17rem;
+}
+
+.ekweiquote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-height: 11rem;
+  width: auto;
+}
+
+.ekweititle {
+  font-size: 2.7rem;
+  max-width: 43rem;
+  font-weight: 900;
+}
+
+.box {
+  width: 75%;
+  height: 245px;
+  background-color: #e5f1e70d;
+  box-shadow: 1px 1px 13px 3px #bbd0be6e;
+  /* margin-bottom: 10rem; */
+  margin: auto;
+  padding: 3rem 4rem;
+  text-align: center;
+  /* filter: drop-shadow(0 0 0.75rem rgba(27, 31, 35, 0.15)); */
+  border-radius: 2px;
+  /* margin-left: 2rem; */
+  /* justify-content: space-around; */
+}
+
+.box h2 {
+  /* color: #2daf47; */
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 2.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li::before {
+  content: "";
+  display: inline-block;
+  /* width: 10px;
+  height: 10px; */
+  margin-right: 10px;
+  background-color: rgb(111, 41, 41);
+}
+
+.footer_menu_title {
+  font-size: 15;
+  font-weight: 600;
+  color: #000000;
+}
+
+.footer_nav {
+  display: flex;
+  flex-direction: row;
+  width: 55%;
+  justify-content: space-around;
+  margin: auto;
+  /* background-color: #00f130; */
+}
+
+.footer_body {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  height: 20rem;
+}
+
+.footer_contact {
+  width: 20.2rem;
+  height: 18rem;
+  background-image: linear-gradient(to bottom right, #67c66c, #5fb163);
+  color: #ffffff;
+  text-align: center;
+  padding: 4rem 1.5rem;
+  justify-content: space-between;
+}
+
+.footer_nav__item {
+  margin-top: 1rem;
+}
+
+
+.link {
+  font-size: 11;
+  font-weight: 500;
+  color: #6e8478;
+  text-decoration: none;
+}
+
+.link2 {
+  font-size: 11;
+  font-weight: 500;
+  color: #f4fff9;
+  text-decoration: none;
+}
+
+.divide {
+  margin: 1rem;
+  height: 8rem;
+  background-color: #ffffff;
+}
+
+/* .divider {
+  margin: 3rem;
+  height: 20rem;
+  width: 20rem;
+  background-color: #a23333;
+} */
+
+.copyright {
+  width: 85%;
+  margin: auto;
 }

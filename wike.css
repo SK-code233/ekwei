@@ -1,0 +1,222 @@
+.page {
+  height: 100% !important;
+  width: 100% !important;
+  /* background-color: #0074d9; */
+}
+
+.nav {
+  height: 15vh;
+  /* height: 6.5rem; */
+  /* width: 100%; */
+  border-bottom: 1px grey solid;
+  /* padding: auto; */
+}
+
+.foot {
+  height: 6.8rem;
+  /* width: 100%; */
+}
+
+.body {
+  height: 85vh;
+  /* width: 100%;
+  padding: auto; */
+  /* height: 41.5rem; */
+  /* background-color: rgb(255, 255, 255); */
+}
+
+/* .body .white {
+    height: 100%;
+}*/
+
+.bodyA {
+  height: 75%;
+  border-bottom: 1px grey solid;
+  /* background-color: aqua; */
+}
+
+.bodyB {
+  height: 25%;
+  /* background-color: antiquewhite; */
+}
+
+.black {
+  /* background-color: black; */
+  border-right: 1px grey solid;
+}
+
+.nav .black {
+  /* background-color: black; */
+  /* padding: 1rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white {
+  /* background-color: rgb(161, 53, 53); */
+  /* border-bottom: 1px grey solid; */
+  border-right: 1px grey solid;
+  padding: 0.000000001px !important;
+}
+
+.logo {
+  /* height: 5rem; */
+  width: 2.6rem;
+  /* font-size: 4rem; */
+  align-items: center;
+  /* margin: 1.1rem; */
+  justify-content: center;
+  color: #00c89d;
+}
+
+.buy {
+  width: 1.5rem;
+}
+
+.foot .white {
+  /* background-color: white; */
+  border-bottom: 1px rgb(255, 255, 255) solid;
+  border-right: 1px grey solid;
+}
+
+.foot .black {
+  /* background-color: black; */
+  border-bottom: 1px rgb(255, 255, 255) solid;
+  border-right: 1px grey solid;
+}
+
+.navitems {
+  /* padding: 2.1rem 10rem; */
+  width: 45%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: aqua; */
+}
+
+.navlink {
+  /* justify-content: space-around;
+    align-items: center; */
+  color: gray;
+  text-decoration: none;
+}
+
+.freeShip {
+  display: flex;
+  height: 78.5%;
+  width: 100%;
+  /* background-color: antiquewhite; */
+  justify-content: center;
+  /* text-align: center; */
+  align-items: center;
+  padding: auto;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  height: 21.5%;
+  width: 80%;
+  padding-bottom: 2.5rem;
+  /* background-color: aqua; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social {
+  padding: 1px 20px;
+  align-items: center;
+}
+
+.slogo {
+  /* height: 100vh; */
+  width: 25px;
+  color: #00c89d;
+}
+
+.vertical-lr {
+  writing-mode: vertical-rl;
+  color: #0074d9;
+  display: inline-block;
+}
+
+.rotated {
+    margin-bottom: -4rem;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+}
+
+.rotate {
+  transform: rotate(-90deg);
+
+  /* Legacy vendor prefixes that you probably don't need... */
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+
+  /* IE */
+  -ms-transform: rotate(-90deg);
+
+  /* Opera */
+  -o-transform: rotate(-90deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+.description {
+    padding: 5rem 7.5rem;
+    position: relative;
+    justify-content: space-around;
+}
+
+.product-image {
+    position: absolute;
+    top: 10rem;
+    right: 9rem;
+}
+
+.img {
+    width: 45rem;
+    /* filter: drop-shadow(10px 20px 1px rgb(69, 87, 84)); */
+}
+
+.title {
+font-size: 30px;
+/* margin-bottom: 1.3rem; */
+height: 15%;
+}
+
+.head {
+font-size: 75px;
+font-weight: 900;
+height: 35%;
+}
+
+.para {
+/* font-size: ; */
+margin-bottom: 3rem;
+width: 90%;
+height: 25;
+}
+
+.btnBlack {
+    font-size: 17px;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 3.6rem;
+    border-radius: 2rem;
+}

@@ -1,0 +1,18 @@
+.box {
+    margin: 3rem;
+    height: 20rem;
+    width: 20rem;
+    background-color: rgb(187, 255, 255);
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box a {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
