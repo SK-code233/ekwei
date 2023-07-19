@@ -1,0 +1,16 @@
+.img {
+    width: 20rem;
+}
+
+.buttt {
+    background-color: aqua !important;
+    height: 8rem !important;
+    width: 8rem !important;
+}
+
+.imgBut {
+    /* width: 10rem;
+    height: 5rem; */
+    object-fit: contain;
+}
+
